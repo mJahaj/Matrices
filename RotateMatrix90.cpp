@@ -1,15 +1,16 @@
 /*
 	Mariglen Jahaj
-	1/12/2017
+	
 	This class rotates a matrix 90 degrees clockwise and prints out matrix
 */
 #include "RotateMatrix90.h"
 #include <vector>
 #include <iomanip>
 #include <iostream>
+
 RotateMatrix90::RotateMatrix90()
 {
-
+    std::cout << "kk" << std::endl;
 }
 
 RotateMatrix90::RotateMatrix90(std::vector<std::vector<int> > matrix)
@@ -18,7 +19,9 @@ RotateMatrix90::RotateMatrix90(std::vector<std::vector<int> > matrix)
     //this->rows = rows;
     //this->cols = cols;
 }
-
+/**
+ * Returns a matrix rotated 90 degrees 
+ */
 std::vector<std::vector <int> > RotateMatrix90::RotMatrix90(){
   
   std::vector <std::vector <int> > matrix90;

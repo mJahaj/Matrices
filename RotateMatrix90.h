@@ -1,6 +1,6 @@
 /*
 	Mariglen Jahaj
-	1/12/2017
+	
 	This class rotates a matrix 90 degrees clockwise and prints out matrix
 */
 #ifndef ROTATEMATRIX90_H
