@@ -43,3 +43,14 @@ void RotateMatrix90::printMatrix(std::vector<std::vector<int> > matrix)
 		std::cout << std::endl;
 	}
 }
+
+void RotateMatrix90::RotateClockwise(std::vector<std::vector<int> > &matrix)
+{
+  for(int i = 0; i < matrix.size(); i++){
+    matrix.push_back(std::vector <int>());
+
+    for(int j = matrix[0].size()-1; j >= 0; j--){
+      matrix[i].push_back(matrix[j][i]);
+    }
+  }   
+}
